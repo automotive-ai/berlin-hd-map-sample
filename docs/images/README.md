@@ -7,5 +7,3 @@ Add figures here for the main [`README.md`](../../README.md).
 ```markdown
 ![Coverage area — Berlin JuniStraße](docs/images/coverage.png)
 ```
-
-Keep file sizes reasonable for GitHub (prefer compressed PNG or WebP).

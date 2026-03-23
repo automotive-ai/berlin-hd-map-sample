@@ -8,5 +8,3 @@ This map is generated from measurement drive data collected with a Leica system.
 The delivered file is **ASAM OpenDRIVE v1.6** and includes lane-level road geometry,
 elevation/profile information, and mapped road objects derived from the drive data.
 
-Coordinate-system details, map revision history, and tooling notes can be documented
-here or in the root [`README.md`](../README.md) as the dataset grows.
