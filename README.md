@@ -1,6 +1,10 @@
-# Berlin HD map sample - Straße des 17. Juni
+<p align="center">
+  <img src="docs/images/logo.svg" alt="Berlin HD map sample — Str. des 17. Juni" width="420"/>
+</p>
 
-Public sample assets for a high-definition road network along **Straße des 17. Juni** in Berlin (Urban Road / `DE_UR` naming), covering the stretch from the **Brandenburg Gate** (*Brandenburger Tor*) to the **Victory Column** (*Siegessäule*). The **OpenDRIVE map** is included now; **measurement drive data** and a matching **Unreal Engine** scene are coming soon and are **not** in this repository yet.
+# Berlin HD map sample — Str. des 17. Juni
+
+Public sample assets for a high-definition road network along **Str. des 17. Juni** in Berlin (Urban Road / `DE_UR` naming), covering the stretch from the **Brandenburg Gate** (*Brandenburger Tor*) to the **Victory Column** (*Siegessäule*). The **OpenDRIVE map** is included now; **measurement drive data** and a matching **Unreal Engine** scene are coming soon and are **not** in this repository yet.
 
 ## Repository layout
 
@@ -12,8 +16,8 @@ Public sample assets for a high-definition road network along **Straße des 17. 
 
 ## HD map
 
-- **Coverage:** Straße des 17. Juni, Berlin — from the Brandenburg Gate to the Victory Column.  
-- **File:** [`maps/opendrive/DE_UR_Berlin_JuniStr_RR.xodr`](maps/opendrive/DE_UR_Berlin_JuniStr_RR.xodr)  
+- **Coverage:** Str. des 17. Juni, Berlin — from the Brandenburg Gate to the Victory Column.  
+- **File:** [`maps/opendrive/DE_UR_Berlin_StrDes17Juni_RR.xodr`](maps/opendrive/DE_UR_Berlin_StrDes17Juni_RR.xodr)  
 - **Format:** [ASAM OpenDRIVE](https://www.asam.net/standards/detail/opendrive/) — suitable for simulation, validation, and tooling that consumes lane-level road geometry.
 
 ## Drive data
@@ -26,7 +30,7 @@ A 3D environment built from this map and data is **planned**. Status and any exp
 
 
 <!-- Uncomment after adding the image:
-![Coverage area — Berlin JuniStraße](docs/images/coverage.png)
+![Coverage area — Berlin, Str. des 17. Juni](docs/images/coverage.png)
 -->
 
 ## License

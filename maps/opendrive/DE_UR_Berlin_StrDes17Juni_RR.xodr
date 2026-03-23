@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <OpenDRIVE>
-  <header revMajor="1" revMinor="6" name="Urban_Map_for_3D_Environment" version="1" date="2026-03-19" vendor="AAI">
+  <header revMajor="1" revMinor="6" name="Str. des 17. Juni, Berlin" version="1" date="2026-03-19" vendor="AAI">
     <geoReference><![CDATA[+proj=tmerc +lat_0=52.5189259363577 +lon_0=13.3260589756961 +k=0.9996 +x_0=0.0 +y_0=0.0 +datum=WGS84 +units=m +no_defs]]></geoReference><offset x="386420.71875" y="5820074" z="0" hdg="0"/>
   </header>
   <road id="1" junction="-1" length="4.95881462097168">
