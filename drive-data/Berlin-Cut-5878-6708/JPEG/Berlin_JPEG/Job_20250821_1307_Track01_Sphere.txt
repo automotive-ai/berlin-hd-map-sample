@@ -1,0 +1,5 @@
+ImageSize=7040,3520
+SphereRadius=100.0000
+HeightLimits=-90.0000,90.0000
+WidthLimits=-180.0000,180.0000
+PanoramaHotSpot=0,0
