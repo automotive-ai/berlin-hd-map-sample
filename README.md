@@ -1,6 +1,6 @@
-# Berlin HD map sample — JuniStraße
+# Berlin HD map sample - Straße des 17. Juni
 
-Public sample assets for a high-definition road network along **JuniStraße** in Berlin (Urban Road / `DE_UR` naming), covering the stretch from the **Brandenburg Gate** (*Brandenburger Tor*) to the **Victory Column** (*Siegessäule*). The **OpenDRIVE map** is included now; **measurement drive data** and a matching **Unreal Engine** scene are coming soon and are **not** in this repository yet.
+Public sample assets for a high-definition road network along **Straße des 17. Juni** in Berlin (Urban Road / `DE_UR` naming), covering the stretch from the **Brandenburg Gate** (*Brandenburger Tor*) to the **Victory Column** (*Siegessäule*). The **OpenDRIVE map** is included now; **measurement drive data** and a matching **Unreal Engine** scene are coming soon and are **not** in this repository yet.
 
 ## Repository layout
 
@@ -12,7 +12,7 @@ Public sample assets for a high-definition road network along **JuniStraße** in
 
 ## HD map
 
-- **Coverage:** JuniStraße, Berlin — from the Brandenburg Gate to the Victory Column.  
+- **Coverage:** Straße des 17. Juni, Berlin — from the Brandenburg Gate to the Victory Column.  
 - **File:** [`maps/opendrive/DE_UR_Berlin_JuniStr_RR.xodr`](maps/opendrive/DE_UR_Berlin_JuniStr_RR.xodr)  
 - **Format:** [ASAM OpenDRIVE](https://www.asam.net/standards/detail/opendrive/) — suitable for simulation, validation, and tooling that consumes lane-level road geometry.
 
