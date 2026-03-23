@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/logo.svg" alt="Berlin HD map sample — Str. des 17. Juni" width="420"/>
+  <img src="docs/images/aai_logo.png" alt="Berlin HD map sample — Str. des 17. Juni" width="420"/>
 </p>
 
 # Berlin HD map sample — Str. des 17. Juni
