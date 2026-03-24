@@ -11,7 +11,7 @@ Public sample assets for a high-definition road network along **Str. des 17. Jun
 | Path | Contents |
 |------|----------|
 | [`maps/opendrive/`](maps/opendrive/) | OpenDRIVE (`.xodr`) road network for the scene |
-| [`drive-data/`](drive-data/) | Reserved for measurement / drive recordings *(coming soon)* |
+| [`drive-data/`](drive-data/) | Reserved for measurement / drive recordings |
 | [`unreal-engine/`](unreal-engine/) | Unreal Engine project or export notes *(coming soon)* |
 
 ## HD map
@@ -22,7 +22,7 @@ Public sample assets for a high-definition road network along **Str. des 17. Jun
 
 ## Drive data
 
-There is **no** drive or sensor data in the repo at the moment. Coming soon **`drive-data/`**.
+Leica-style sensor package (trajectory CSV, camera JPEGs, LiDAR tiles as applicable)
 
 ## Unreal Engine scene
 
