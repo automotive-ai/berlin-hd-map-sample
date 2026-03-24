@@ -4,7 +4,7 @@
 
 # Berlin HD map sample — Str. des 17. Juni
 
-Public sample assets for a high-definition road network along **Str. des 17. Juni** in Berlin (Urban Road / `DE_UR` naming), covering the stretch from the **Brandenburg Gate** (*Brandenburger Tor*) to the **Victory Column** (*Siegessäule*). The **OpenDRIVE map** is included now; **measurement drive data** and a matching **Unreal Engine** scene are coming soon and are **not** in this repository yet.
+Public sample assets for a high-definition road network along **Str. des 17. Juni** in Berlin (Urban Road / `DE_UR` naming), covering the stretch from the **Brandenburg Gate** (*Brandenburger Tor*) to the **Victory Column** (*Siegessäule*). The repository includes the **measurement drive data** and a high-fidelity **OpenDRIVE map**. The corresponding **Unreal Engine** scene will be available soon.
 
 ## Repository layout
 
@@ -18,20 +18,28 @@ Public sample assets for a high-definition road network along **Str. des 17. Jun
 
 - **Coverage:** Str. des 17. Juni, Berlin — from the Brandenburg Gate to the Victory Column.  
 - **File:** [`maps/opendrive/DE_UR_Berlin_StrDes17Juni_RR.xodr`](maps/opendrive/DE_UR_Berlin_StrDes17Juni_RR.xodr)  
-- **Format:** [ASAM OpenDRIVE](https://www.asam.net/standards/detail/opendrive/) — suitable for simulation, validation, and tooling that consumes lane-level road geometry.
+- **Format:** [ASAM OpenDRIVE](https://www.asam.net/standards/detail/opendrive/) — suitable for simulation, validation, and tooling that consumes lane-level road geometry.  
+- **Map details:** See [`maps/README.md`](maps/README.md) for geographic coverage, provenance, and a full list of what is modeled in the high-fidelity `.xodr`.
+
+### Map preview
+
+<p align="center">
+  <img src="docs/images/MapPreview2.png" alt="OpenDRIVE map preview — Str. des 17. Juni, Berlin" width="920"/>
+  <br/>
+  <em>OpenDRIVE map loaded in <a href="https://www.automotive-ai.com/replimap">RepliMap</a>, overlaid on Mapbox satellite imagery.</em>
+</p>
 
 ## Drive data
 
-Leica-style sensor package (trajectory CSV, camera JPEGs, LiDAR tiles as applicable)
+Leica-style sensor package (trajectory CSV, camera JPEGs, LiDAR tiles as applicable). The drive data shared in this repository is **loadable in [RepliMap](https://www.automotive-ai.com/replimap)** for editing, visualization, and enrichment alongside the HD map.
+
+### RepliMap
+
+[**RepliMap**](https://www.automotive-ai.com/replimap) is a unified platform designed for HD map editing and 3D scene editing for autonomous driving, enabling engineers to create, customize, and enrich road networks with precision.
 
 ## Unreal Engine scene
 
 A 3D environment built from this map and data is **planned**. Status and any export/import notes will be tracked in [`unreal-engine/README.md`](unreal-engine/README.md).
-
-
-<!-- Uncomment after adding the image:
-![Coverage area — Berlin, Str. des 17. Juni](docs/images/coverage.png)
--->
 
 ## License
 
