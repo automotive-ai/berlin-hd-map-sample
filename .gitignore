@@ -1,0 +1,5 @@
+.DS_Store
+
+# Uncomment if you store large recordings locally but do not commit them:
+# *.bag
+# *.mcap
