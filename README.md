@@ -14,6 +14,39 @@ Public sample assets for a high-definition road network along **Str. des 17. Jun
 | [`drive-data/`](drive-data/) | Reserved for measurement / drive recordings |
 | [`unreal-engine/`](unreal-engine/) | Unreal Engine project or export notes *(coming soon)* |
 
+## How to download the full dataset
+This repository uses **Git Large File Storage (Git LFS)** for large data files such as **JPEG camera images** and **LAZ point cloud tiles**. If Git LFS is not pulled correctly, these files may appear as small pointer files instead of usable images or point cloud data.
+Install and initialize Git LFS:
+```bash
+git lfs install
+```
+Clone the repository:
+```bash
+git clone <repository-url>
+cd <repository-folder>
+```
+Download the actual JPEG and LAZ files:
+```bash
+git lfs fetch --all
+git lfs checkout
+git lfs pull
+```
+The JPEG files are located in:
+```text
+drive-data/Berlin-Cut-5878-6708/JPEG/Berlin_JPEG
+```
+The LAZ point cloud tiles are located in:
+```text
+drive-data/Berlin-Cut-5878-6708/Tiles_Berlin-Cut-5878-6708
+```
+To verify the download, check the file size. If a JPEG or LAZ file is only around **100–200 bytes** and contains text similar to `version https://git-lfs.github.com/spec/v1`, it is still a Git LFS pointer file. Run the Git LFS commands again from the repository root:
+```bash
+git lfs fetch --all
+git lfs checkout
+git lfs pull
+```
+After this, the JPEG files should open normally as images, and the LAZ files should be usable as point cloud tiles.
+
 ## HD map
 
 - **Coverage:** Str. des 17. Juni, Berlin — from the Brandenburg Gate to the Victory Column.  
