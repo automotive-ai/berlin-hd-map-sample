@@ -41,6 +41,12 @@ Leica-style sensor package (trajectory CSV, camera JPEGs, LiDAR tiles as applica
 
 A 3D environment built from the **OpenDRIVE map** and **sensor / drive data** in this repository is available as a packaged **Unreal Engine** build for visualization. See [`unreal-engine/README.md`](unreal-engine/README.md) for how to run it.
 
+<p align="center">
+  <img src="docs/images/UnrealScenePreview.png" alt="Unreal Engine 3D scene preview — Str. des 17. Juni near the Victory Column" width="920"/>
+  <br/>
+  <em>Packaged Unreal Engine scene looking toward the Victory Column (*Siegessäule*).</em>
+</p>
+
 For access beyond this visualization build (for example project source, integration, or commercial use), get in touch at **[sales@aai-innovations.com](mailto:sales@aai-innovations.com)**.
 
 ## License
