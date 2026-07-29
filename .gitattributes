@@ -1,0 +1,12 @@
+/unreal-engine/Berlin/Binaries/Win64/Berlin-Win64-Shipping.exe filter=lfs diff=lfs merge=lfs -text
+/unreal-engine/Berlin/Content/Berlin_Drive.ubulk filter=lfs diff=lfs merge=lfs -text
+/unreal-engine/Berlin/Content/Berlin_Drive.uexp filter=lfs diff=lfs merge=lfs -text
+/unreal-engine/Berlin/Content/Berlin_Drive_BuiltData.ubulk filter=lfs diff=lfs merge=lfs -text
+/unreal-engine/Berlin/Content/Berlin_Drive_BuiltData.uptnl filter=lfs diff=lfs merge=lfs -text
+/unreal-engine/Berlin/Content/Fences/NoiseScreen_rockSmall_36m_NoiseScreen_rockSmall_36m_LOD0.uexp filter=lfs diff=lfs merge=lfs -text
+/unreal-engine/Berlin/Content/MapData/HeroAssets/BD_BrandenburgGate.uexp filter=lfs diff=lfs merge=lfs -text
+/unreal-engine/Berlin/Content/MapData/HeroAssets/BD_Memorial.uexp filter=lfs diff=lfs merge=lfs -text
+/unreal-engine/Berlin/Content/MapData/Manual/BD_Manual_DeadEnds.uexp filter=lfs diff=lfs merge=lfs -text
+/unreal-engine/Berlin/Content/ShaderArchive-Berlin-PCD3D_SM6-PCD3D_SM6.ushaderbytecode filter=lfs diff=lfs merge=lfs -text
+/unreal-engine/Berlin/Content/ShaderArchive-Global-PCD3D_SM6-PCD3D_SM6.ushaderbytecode filter=lfs diff=lfs merge=lfs -text
+/unreal-engine/Engine/Extras/Redist/en-us/UEPrereqSetup_x64.exe filter=lfs diff=lfs merge=lfs -text

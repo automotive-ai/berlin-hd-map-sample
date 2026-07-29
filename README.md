@@ -4,15 +4,15 @@
 
 # Berlin HD map sample — Str. des 17. Juni
 
-Public sample assets for a high-definition road network along **Str. des 17. Juni** in Berlin (Urban Road / `DE_UR` naming), covering the stretch from the **Brandenburg Gate** (*Brandenburger Tor*) to the **Victory Column** (*Siegessäule*). The repository includes the **measurement drive data** and a high-fidelity **OpenDRIVE map**. The corresponding **Unreal Engine** scene will be available soon.
+Public sample assets for a high-definition road network along **Str. des 17. Juni** in Berlin (Urban Road / `DE_UR` naming), covering the stretch from the **Brandenburg Gate** (*Brandenburger Tor*) to the **Victory Column** (*Siegessäule*). The repository includes the **measurement drive data**, a high-fidelity **OpenDRIVE map**, and a packaged **Unreal Engine** scene for visualization.
 
 ## Repository layout
 
 | Path | Contents |
 |------|----------|
 | [`maps/opendrive/`](maps/opendrive/) | OpenDRIVE (`.xodr`) road network for the scene |
-| [`drive-data/`](drive-data/) | Reserved for measurement / drive recordings |
-| [`unreal-engine/`](unreal-engine/) | Unreal Engine project or export notes *(coming soon)* |
+| [`drive-data/`](drive-data/) | Measurement / drive recordings (trajectory, camera, LiDAR) |
+| [`unreal-engine/`](unreal-engine/) | Packaged Unreal Engine build for scene visualization |
 
 ## HD map
 
@@ -39,7 +39,15 @@ Leica-style sensor package (trajectory CSV, camera JPEGs, LiDAR tiles as applica
 
 ## Unreal Engine scene
 
-A 3D environment built from this map and data is **planned**. Status and any export/import notes will be tracked in [`unreal-engine/README.md`](unreal-engine/README.md).
+A 3D environment built from the **OpenDRIVE map** and **sensor / drive data** in this repository is available as a packaged **Unreal Engine** build for visualization. See [`unreal-engine/README.md`](unreal-engine/README.md) for how to run it.
+
+<p align="center">
+  <img src="docs/images/UnrealScenePreview.png" alt="Unreal Engine 3D scene preview — Str. des 17. Juni near the Victory Column" width="920"/>
+  <br/>
+  <em>Packaged Unreal Engine scene looking toward the Victory Column (*Siegessäule*).</em>
+</p>
+
+For access beyond this visualization build (for example project source, integration, or commercial use), get in touch at **[sales@aai-innovations.com](mailto:sales@aai-innovations.com)**.
 
 ## License
 
